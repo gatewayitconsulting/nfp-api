@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Toddy Cold Brew",
+      "eventThumbnailImagePath": "../../../assets/img/toddy.jpg",
+      "eventThumbnailImageAltText": "Finished Toddy Cold Brew",
+      "eventImagePath": "../../../assets/img/toddy.jpg",
+      "eventImageAltText": "Finished Toddy Cold Brew",
+      "date": "10052020",
+      "description": "Make delicious iced coffee that will last a week in the fridge."
+    },
+    {
+      "id": 2,
+      "name": "Toddy Cold Brew",
+      "eventThumbnailImagePath": "../../../assets/img/toddy.jpg",
+      "eventThumbnailImageAltText": "Finished Toddy Cold Brew",
+      "eventImagePath": "../../../assets/img/toddy.jpg",
+      "eventImageAltText": "Finished Toddy Cold Brew",
+      "date": "10052020",
+      "description": "Make delicious iced coffee that will last a week in the fridge."
+    },
+    {
+      "id": 3,
+      "name": "Toddy Cold Brew",
+      "eventThumbnailImagePath": "../../../assets/img/toddy.jpg",
+      "eventThumbnailImageAltText": "Finished Toddy Cold Brew",
+      "eventImagePath": "../../../assets/img/toddy.jpg",
+      "eventImageAltText": "Finished Toddy Cold Brew",
+      "date": "10052020",
+      "description": "Make delicious iced coffee that will last a week in the fridge."
+    }
+  ]
+}

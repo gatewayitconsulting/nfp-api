@@ -1,5 +1,5 @@
 // import other routes
-const recipeRoutes = require('./recipes');
+const eventRoutes = require('./events');
 
 const appRouter = (app, fs) => {
 
@@ -9,7 +9,7 @@ const appRouter = (app, fs) => {
     });
 
     // // other routes
-    recipeRoutes(app, fs);
+    eventRoutes(app, fs);
 
 };
 

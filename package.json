@@ -1,9 +1,10 @@
 {
-  "name": "scb-api",
+  "name": "nfp-api",
   "version": "1.0.0",
-  "description": "Simple API that retrieves JSON data for the Simplest Cookbook app.",
+  "description": "Simple API that retrieves JSON data for the NFPFramework app.",
   "main": "server.js",
   "scripts": {
+    "install-npm": "npm install",
     "start": "nodemon server.js"
   },
   "author": "Gateway IT Consulting",
