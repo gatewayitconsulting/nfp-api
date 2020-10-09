@@ -1,5 +1,7 @@
 // import other routes
-const eventRoutes = require('./events');
+// const eventRoutes = require('./events');
+const events = require("../controllers/event.controller.js");
+
 
 const appRouter = (app, fs) => {
 
@@ -8,8 +10,12 @@ const appRouter = (app, fs) => {
         res.send('welcome to the development api-server');
     });
 
+    app.get("/events", events.findAll);
+    app.get("/events/:eventId", events.findOne);
+
+
     // // other routes
-    eventRoutes(app, fs);
+    // eventRoutes(app, fs);
 
 };
 

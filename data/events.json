@@ -2,9 +2,10 @@
   {
     "id": 1,
     "name": "Virtual 5K",
+    "category": "Hot Event",
     "eventThumbnailImagePath": "http://placehold.jp/1168x350.png",
     "eventThumbnailImageAltText": "Image Alt Text",
-    "eventImagePath": "http://placehold.jp/1168x350.png",
+    "eventImagePath": "http://placehold.jp/450x450.png",
     "eventImageAltText": "Image Alt Text",
     "date": "10052020",
     "description": "Sample event description"
@@ -12,9 +13,10 @@
   {
     "id": 2,
     "name": "Trivia",
+    "category": "Event",
     "eventThumbnailImagePath": "http://placehold.jp/1168x350.png",
     "eventThumbnailImageAltText": "Image Alt Text",
-    "eventImagePath": "http://placehold.jp/1168x350.png",
+    "eventImagePath": "http://placehold.jp/450x450.png",
     "eventImageAltText": "Image Alt Text",
     "date": "10052020",
     "description": "Sample event description"
@@ -22,9 +24,10 @@
   {
     "id": 3,
     "name": "Gala",
+    "category": "Archived Event",
     "eventThumbnailImagePath": "http://placehold.jp/1168x350.png",
     "eventThumbnailImageAltText": "Image Alt Text",
-    "eventImagePath": "http://placehold.jp/1168x350.png",
+    "eventImagePath": "http://placehold.jp/450x450.png",
     "eventImageAltText": "Image Alt Text",
     "date": "10052020",
     "description": "Sample event description"

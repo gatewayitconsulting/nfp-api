@@ -1,0 +1,60 @@
+INSERT INTO Events (
+    name, 
+    category, 
+    eventThumbnailImagePath, 
+    eventThumbnailImageAltText, 
+    eventImagePath, 
+    eventImageAltText,
+    date,
+    description,
+)
+VALUES (
+    'Virtual 5K',
+    'Hot Event',
+    'http://placehold.jp/1168x350.png',
+    'Image Alt Text',
+    'http://placehold.jp/450x450.png',
+    'Image Alt Text',
+    '10052020',
+    'Sample event description'
+);
+INSERT INTO Events (
+    name, 
+    category, 
+    eventThumbnailImagePath, 
+    eventThumbnailImageAltText, 
+    eventImagePath, 
+    eventImageAltText,
+    date,
+    description,
+)
+VALUES (
+    'Trivia',
+    'Event',
+    'http://placehold.jp/1168x350.png',
+    'Image Alt Text',
+    'http://placehold.jp/450x450.png',
+    'Image Alt Text',
+    '10052020',
+    'Sample event description'
+);
+INSERT INTO Events (
+    name, 
+    category, 
+    eventThumbnailImagePath, 
+    eventThumbnailImageAltText, 
+    eventImagePath, 
+    eventImageAltText,
+    date,
+    description,
+)
+VALUES (
+    'Gala',
+    'Archived Event',
+    'http://placehold.jp/1168x350.png',
+    'Image Alt Text',
+    'http://placehold.jp/450x450.png',
+    'Image Alt Text',
+    '10052020',
+    'Sample event description'
+);

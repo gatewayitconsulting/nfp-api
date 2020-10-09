@@ -1,0 +1,13 @@
+CREATE DATABASE nfpfdbdev
+
+CREATE TABLE IF NOT EXISTS events (
+    id                              int     NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+    name                            VARCHAR(2500)   NOT NULL,
+    category                        VARCHAR(2500),
+    eventThumbnailImagePath         VARCHAR(2500),
+    eventThumbnailImageAltText      VARCHAR(2500),
+    eventImagePath                  VARCHAR(2500),
+    eventImageAltText               VARCHAR(2500),
+    date                            VARCHAR(2500),
+    description                     VARCHAR(2500)
+) DEFAULT CHARSET=utf8;
