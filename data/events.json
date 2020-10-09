@@ -1,34 +1,32 @@
-{
-  "results": [
-    {
-      "id": 1,
-      "name": "Toddy Cold Brew",
-      "eventThumbnailImagePath": "../../../assets/img/toddy.jpg",
-      "eventThumbnailImageAltText": "Finished Toddy Cold Brew",
-      "eventImagePath": "../../../assets/img/toddy.jpg",
-      "eventImageAltText": "Finished Toddy Cold Brew",
-      "date": "10052020",
-      "description": "Make delicious iced coffee that will last a week in the fridge."
-    },
-    {
-      "id": 2,
-      "name": "Toddy Cold Brew",
-      "eventThumbnailImagePath": "../../../assets/img/toddy.jpg",
-      "eventThumbnailImageAltText": "Finished Toddy Cold Brew",
-      "eventImagePath": "../../../assets/img/toddy.jpg",
-      "eventImageAltText": "Finished Toddy Cold Brew",
-      "date": "10052020",
-      "description": "Make delicious iced coffee that will last a week in the fridge."
-    },
-    {
-      "id": 3,
-      "name": "Toddy Cold Brew",
-      "eventThumbnailImagePath": "../../../assets/img/toddy.jpg",
-      "eventThumbnailImageAltText": "Finished Toddy Cold Brew",
-      "eventImagePath": "../../../assets/img/toddy.jpg",
-      "eventImageAltText": "Finished Toddy Cold Brew",
-      "date": "10052020",
-      "description": "Make delicious iced coffee that will last a week in the fridge."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Virtual 5K",
+    "eventThumbnailImagePath": "http://placehold.jp/1168x350.png",
+    "eventThumbnailImageAltText": "Image Alt Text",
+    "eventImagePath": "http://placehold.jp/1168x350.png",
+    "eventImageAltText": "Image Alt Text",
+    "date": "10052020",
+    "description": "Sample event description"
+  },
+  {
+    "id": 2,
+    "name": "Trivia",
+    "eventThumbnailImagePath": "http://placehold.jp/1168x350.png",
+    "eventThumbnailImageAltText": "Image Alt Text",
+    "eventImagePath": "http://placehold.jp/1168x350.png",
+    "eventImageAltText": "Image Alt Text",
+    "date": "10052020",
+    "description": "Sample event description"
+  },
+  {
+    "id": 3,
+    "name": "Gala",
+    "eventThumbnailImagePath": "http://placehold.jp/1168x350.png",
+    "eventThumbnailImageAltText": "Image Alt Text",
+    "eventImagePath": "http://placehold.jp/1168x350.png",
+    "eventImageAltText": "Image Alt Text",
+    "date": "10052020",
+    "description": "Sample event description"
+  }
+]
