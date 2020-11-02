@@ -28,3 +28,30 @@ exports.findOne = (req, res) => {
         } else res.send(data);
     });
 };
+
+exports.create = (req, res) => {
+  // Validate request
+  if (!req.body) {
+    res.status(400).send({
+      message: "Content can not be empty!"
+    });
+  }
+
+  // Create a ContactForm
+  const contactForm = new ContactForm({
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
+    email: req.body.email,
+    comment: req.body.comment
+  });
+
+  // Save ContactForm in the database
+  ContactForm.create(contactForm, (err, data) => {
+    if (err)
+      res.status(500).send({
+        message:
+          err.message || "Some error occurred while creating the ContactForm."
+      });
+    else res.send(data);
+  });
+};

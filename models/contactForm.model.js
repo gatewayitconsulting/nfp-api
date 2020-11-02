@@ -8,18 +8,18 @@ const ContactForm = function(contactForm) {
   this.comment = contactForm.comment;
 };
 
-// ContactForm.create = (newContactForm, result) => {
-//   sql.query("INSERT INTO contactForms SET ?", newContactForm, (err, res) => {
-//     if (err) {
-//       console.log("error: ", err);
-//       result(err, null);
-//       return;
-//     }
+ContactForm.create = (newContactForm, result) => {
+  sql.query("INSERT INTO ContactForms SET ?", newContactForm, (err, res) => {
+    if (err) {
+      console.log("error: ", err);
+      result(err, null);
+      return;
+    }
 
-//     console.log("created contactForm: ", { id: res.insertId, ...newContactForm });
-//     result(null, { id: res.insertId, ...newContactForm });
-//   });
-// };
+    console.log("created contactform: ", { id: res.insertId, ...newContactForm });
+    result(null, { id: res.insertId, ...newContactForm });
+  });
+};
 
 ContactForm.findById = (contactFormId, result) => {
   sql.query(`SELECT * FROM contactForms WHERE id = ${contactFormId}`, (err, res) => {

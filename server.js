@@ -5,8 +5,8 @@ const cors = require('cors');
 const app = express();
 const fs = require('fs');
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json({ type: 'application/*+json' }))
 app.use(cors());
 
 const routes = require('./routes/routes.js')(app, fs);
