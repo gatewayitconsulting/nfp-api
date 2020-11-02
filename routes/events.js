@@ -3,17 +3,6 @@ const eventRoutes = (app, fs) => {
     // variables
     const dataPath = './data/events.json';
 
-    // helper methods
-    const readFile = (callback, returnJson = false, filePath = dataPath, encoding = 'utf8') => {
-        fs.readFile(filePath, encoding, (err, data) => {
-            if (err) {
-                throw err;
-            }
-
-            callback(returnJson ? JSON.parse(data) : data);
-        });
-    };
-
     // READ ALL
     app.get('/events', (req, res) => {
         fs.readFile(dataPath, 'utf8', (err, data) => {
