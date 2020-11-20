@@ -3,13 +3,12 @@ const events = require("../controllers/event.controller.js");
 const contactForms = require("../controllers/contactForm.controller.js");
 
 
-const appRouter = (app, fs) => {
+const appRouter = (app) => {
 
     // default route
     app.get('/', (req, res) => {
         res.send('welcome to the development api-server');
     });
-
 
     app.post("/contactForms", contactForms.create);
     app.get("/contactForms", contactForms.findAll); 

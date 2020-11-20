@@ -1,29 +1,29 @@
-const newsRoutes = (app, fs) => {
+// const newsRoutes = (app, fs) => {
 
-    // variables
-    const dataPath = './data/news.json';
+//     // variables
+//     const dataPath = './data/news.json';
 
-    // helper methods
-    const readFile = (callback, returnJson = false, filePath = dataPath, encoding = 'utf8') => {
-        fs.readFile(filePath, encoding, (err, data) => {
-            if (err) {
-                throw err;
-            }
+//     // helper methods
+//     const readFile = (callback, returnJson = false, filePath = dataPath, encoding = 'utf8') => {
+//         fs.readFile(filePath, encoding, (err, data) => {
+//             if (err) {
+//                 throw err;
+//             }
 
-            callback(returnJson ? JSON.parse(data) : data);
-        });
-    };
+//             callback(returnJson ? JSON.parse(data) : data);
+//         });
+//     };
 
-    // READ
-    app.get('/news', (req, res) => {
-        fs.readFile(dataPath, 'utf8', (err, data) => {
-            if (err) {
-                throw err;
-            }
+//     // READ
+//     app.get('/news', (req, res) => {
+//         fs.readFile(dataPath, 'utf8', (err, data) => {
+//             if (err) {
+//                 throw err;
+//             }
 
-            res.send(JSON.parse(data));
-        });
-    });
-};
+//             res.send(JSON.parse(data));
+//         });
+//     });
+// };
 
-module.exports = newsRoutes;
+// module.exports = newsRoutes;
